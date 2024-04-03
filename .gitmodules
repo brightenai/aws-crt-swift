@@ -1,6 +1,6 @@
 [submodule "aws-common-runtime/aws-c-common"]
 	path = aws-common-runtime/aws-c-common
-	url = https://github.com/awslabs/aws-c-common.git
+	url = https://github.com/brightenai/aws-c-common.git
 [submodule "aws-common-runtime/aws-c-io"]
 	path = aws-common-runtime/aws-c-io
 	url = https://github.com/awslabs/aws-c-io.git
