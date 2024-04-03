@@ -13,11 +13,11 @@ var package = Package(name: "aws-crt-swift",
                         .executable(name: "Elasticurl", targets: ["Elasticurl"])
                       ]
 )
-
+// burkey
 let cSettings: [CSetting] = [
     .define("DEBUG_BUILD", .when(configuration: .debug)),
-    .define("AWS_UNSTABLE_TESTING_API")
-    
+    .define("AWS_UNSTABLE_TESTING_API"),
+    .define("AWS_UNSTABLE_TESTING_API", to: "1",.when(platforms: [.macOS,.iOS])),
 ]
 
 //////////////////////////////////////////////////////////////////////
