@@ -15,7 +15,9 @@ var package = Package(name: "aws-crt-swift",
 )
 
 let cSettings: [CSetting] = [
-    .define("DEBUG_BUILD", .when(configuration: .debug))
+    .define("DEBUG_BUILD", .when(configuration: .debug)),
+    .define("AWS_UNSTABLE_TESTING_API")
+    
 ]
 
 //////////////////////////////////////////////////////////////////////
